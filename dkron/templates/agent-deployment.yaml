@@ -9,9 +9,7 @@ metadata:
     {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
-  {{- if not .Values.agent.autoscaling.enabled }}
   replicas: {{ .Values.agent.replicaCount }}
-  {{- end }}
   selector:
     matchLabels:
       {{- include "dkron.agentSelectorLabels" . | nindent 6 }}

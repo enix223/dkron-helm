@@ -2,14 +2,14 @@ apiVersion: v1
 entries:
   dkron:
   - apiVersion: v2
-    appVersion: 3.2.1
-    created: "2023-04-15T23:35:49.759777+02:00"
+    appVersion: 4.0.8
+    created: "2025-12-18T11:47:44.399621+08:00"
     description: A Helm chart for dkron
-    digest: ad8eaedcf7cd79fc55f1e572286d8dd69837f1e335437caafd5ef6c533aa885f
+    digest: 1c0c7e1c0661a87a54dca746447f416a0078f044163e43114c4936e408106959
     icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
     name: dkron
     type: application
     urls:
-    - dkron-2.0.3.tgz
-    version: 2.0.3
-generated: "2023-04-15T23:35:49.758366+02:00"
+    - dkron-2.1.0.tgz
+    version: 2.1.0
+generated: "2025-12-18T11:47:44.399078+08:00"
