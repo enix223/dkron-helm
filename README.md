@@ -25,7 +25,7 @@ Helm chart to install Dkron and other associated components.
 # Deploy dkron helm chart
 
 ```shell
-helm upgrade --install dkron oci://ghcr.io/enix223/dkron-helm/dkron \
+helm upgrade --install dkron oci://ghcr.io/enix223/dkron \
 	--namespace=ishare \
 	--version 2.1.0 \
 	--set image.tag='4.0.8-light' \
