@@ -19,7 +19,7 @@ Helm chart to install Dkron and other associated components.
 3. publish the chart
 
     ```shell
-    helm push dkron-2.1.0.tgz.tgz oci://ghcr.io/enix223/dkron-helm
+    helm push dkron-2.2.0.tgz oci://ghcr.io/enix223/dkron-helm
     ```
 
 # Deploy dkron helm chart
